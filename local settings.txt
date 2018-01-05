@@ -1,0 +1,26 @@
+
+
+set HTTPS_PROXY="http://proxy-src.research.ge.com:8080"
+set https_proxy="http://proxy-src.research.ge.com:8080"
+set HTTP_PROXY="http://proxy-src.research.ge.com:8080"
+set http_proxy="http://proxy-src.research.ge.com:8080"
+
+set no_proxy=.ge.com
+
+set path=%path%;C:\Program Files\nodejs;C:\Program Files (x86)\Git\bin;
+
+set path=%path%;C:\Users\vgupta31\AppData\Roaming\npm;
+
+grunt clean --force
+
+grunt dist --force
+
+grunt serve 
+
+
+
+C:\Users\vgupta31\Documents\vikas_gupta\Webapp\DEV\public\scripts\modules\sample-module
+
+set path=C:\Program Files\nodejs; C:\Users\vgupta31\AppData\Roaming\npm;C:\Program Files (x86)\Git\bin;%path%
+
+

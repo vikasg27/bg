@@ -1,0 +1,37 @@
+set JAVA_HOME=C:\Users\vgupta31\Documents\vikas_gupta\jdk1.8.0_131
+ 
+set path=%JAVA_HOME%\bin;%path%;C:\Users\vgupta31\Desktop\Softwares\apache-maven-3.1.0\bin;C:\Users\vgupta31\Desktop\Softwares\nodejs;C:\Users\vgupta31\Documents\vikas_gupta\Softwares\Git\bin;
+
+npm config proxy
+npm config set proxy http://proxy-src.research.ge.com:8080
+npm config set https-proxy http://proxy-src.research.ge.com:8080
+npm config set registry http://registry.npmjs.org
+npm config set strict-ssl false
+
+
+cd C:\Users\vgupta31\Desktop\my-network
+
+npm install
+  
+npm install -g grunt-cli
+
+
+set HTTPS_PROXY="http://proxy-src.research.ge.com:8080"
+set https_proxy="http://proxy-src.research.ge.com:8080"
+set HTTP_PROXY="http://proxy-src.research.ge.com:8080"
+set http_proxy="http://proxy-src.research.ge.com:8080"
+set no_proxy="devcloud.sw.ge.com, openge.ge.com, design.sw.ge.com, .swcoe.ge.com, .sw.ge.com
+
+C:\Users\ig834553\AppData\Roaming\npm\grunt serve
+
+
+
+---------------------------------------------------------------
+set path=C:\Users\ig834553\Desktop\Software\jdk1.7.0_25\bin;C:\Users\ig834553\Desktop\Software\Git\bin;C:\Users\ig834553\Desktop\Software\nodejs;C:\Users\ig834553\AppData\Roaming\npm;C:\Users\ig834553\AppData\Roaming\npm\node_modules\bower\bin;C:\Users\ig834553\AppData\Roaming\npm\node_modules\grunt-cli\bin;C:\Users\ig834553\Desktop\Software\apache-maven-3.1.0\bin;
+
+
+
+set path=%path%;C:\Users\vgupta31\Documents\vikas_gupta\Softwares\Git\bin;
+
+
+set path=%path%;C:\Users\vgupta31\AppData\Roaming\npm\node_modules\yo
